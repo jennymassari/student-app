@@ -1,12 +1,11 @@
 import StudentList from './components/StudentList';
+import ClassInfo from './components/ClassInfo';
 
 function App() {
   return (
     <main>
       <h1>Attendance</h1>
-      Here&apos;s the first rendered student list:
-      <StudentList></StudentList>
-      Here&apos;s the second rendered student list:
+      <ClassInfo></ClassInfo>
       <StudentList></StudentList>
     </main>
   );
